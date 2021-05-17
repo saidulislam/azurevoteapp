@@ -33,7 +33,7 @@ logger = logging.getLogger(__name__) # TODO: Setup logger
 logger.addHandler(AzureEventHandler(connection_string = INSIGHTS_CONN_STRING))
 
 
-logger.addHandler(handler)
+#logger.addHandler(handler)
 logger.setLevel(logging.INFO)
 
 # Metrics
